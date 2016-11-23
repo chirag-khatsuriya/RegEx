@@ -1,0 +1,35 @@
+/*
+  Created On: 2016 Nov 11 
+  Created By Chirag Khatsuriya
+  About: This regex is used to skip the specific characters.
+*/
+
+RegEx:
+     (?<=.............)(In This Study) /gi
+     
+EXPLANATION:
+
+Positive Lookbehind (?<=.............)
+Assert that the Regex below matches
+. matches any character (except for line terminators)
+. matches any character (except for line terminators)
+. matches any character (except for line terminators)
+. matches any character (except for line terminators)
+. matches any character (except for line terminators)
+. matches any character (except for line terminators)
+. matches any character (except for line terminators)
+. matches any character (except for line terminators)
+. matches any character (except for line terminators)
+. matches any character (except for line terminators)
+. matches any character (except for line terminators)
+. matches any character (except for line terminators)
+. matches any character (except for line terminators)
+1st Capturing Group (In This Study)
+In This Study matches the characters In This Study literally (case insensitive)
+Global pattern flags
+g modifier: global. All matches (don't return after first match)
+i modifier: insensitive. Case insensitive match (ignores case of [a-zA-Z])
+
+
+EXPLANATION TAKEN FROM: 
+https://regex101.com/
